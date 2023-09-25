@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="module" src="src/js/controller.js"></script>
+        <title>Shopping Card Manager</title>
+    </head>
+
+    <body>
+        <section class="inputs">
+            <form class="addForm">
+                <input type="text" placeholder="Product Name" class="product_name">
+                <input type="number" placeholder="Price" class="product_price">
+                <input type="number" placeholder="Quantity" class="product_quantity">
+                <button class="setproduct">Add To Card</button>
+            </form>
+        </section>
+        <section class="items">
+            <h1>List of all the Items in your Card</h1>
+        </section>
+        <section class="finalprice">
+            <form>
+                <input type="number" placeholder="Tip Percentage">
+            </form>
+            <div class="cardinfo">
+                <p>SubTotal: <span class="subTotal"></span></p>
+                <p>Tip Amount: <span class="tipamount"></span></p>
+                <p>Total: <span class="total"></span></p>
+            </div>
+        </section>
+    </body>
+</html>
